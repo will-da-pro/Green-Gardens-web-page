@@ -9,9 +9,13 @@ body {
 }
 /* Nav styles */
 .nav-wrapper {
+    transition: 0.2s;
     display: flex;
     justify-content: space-between;
     padding: 38px;
+    background-color: white;
+}
+.nav-wrapper:hover {
     background-color: lightgray;
 }
 .left-side {
@@ -99,4 +103,9 @@ body {
 }
 .profile-content-wrapper h1 {
     color: lightseagreen;
+}
+/* Contact */
+.subscribe {
+    padding: auto;
+    position: absolute;
 }
