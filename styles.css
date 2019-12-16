@@ -14,9 +14,15 @@ body {
     justify-content: space-between;
     padding: 38px;
     background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: transparent;
 }
 .nav-wrapper:hover {
     background-color: lightgray;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
 }
 .left-side {
     display: flex;
@@ -30,8 +36,16 @@ body {
     border-bottom: 1px solid transparent;
     transition: border-bottom 0.5s;
 }
+.nav-link-wrapper-brand {
+    height: 22px;
+}
 .nav-link-wrapper a {
     color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+.nav-link-wrapper-brand a {
+    color: black;
     text-decoration: none;
     transition: color 0.5s;
 }
@@ -106,6 +120,30 @@ body {
 }
 /* Contact */
 .subscribe {
-    padding: auto;
-    position: absolute;
+    margin: 0;
+    padding: 75px 0 0 0;
+    text-align: center;
+    -webkit-text-size-adjust: none;
+}
+.rounded6 {
+    border-radius: 6px;
+}
+.wrapper {
+    width: 600px;
+    margin: 0 auto 10px auto;
+    text-align: left;
+}
+div {
+    display: block;
+}
+.poweredWrapper {
+    padding: 20px 0;
+    width: 560px;
+    margin: 0 auto;
+}
+.poweredBy {
+    display: block;
+}
+script {
+    display: none;
 }
